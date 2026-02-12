@@ -4,94 +4,148 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Health & Wellness Blog | Optimum Health & Wellness Clinic</title>
+    <title>Health Insights & Medical Blog | Optimum Health & Wellness Clinic</title>
     <meta name="description"
-        content="Premier after-hours medical care in the Rio Grande Valley. Open 5 PM - 10 PM for your convenience.">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=DM+Sans:wght@400;500;700&display=swap"
-        rel="stylesheet">
+        content="Stay informed with expert medical insights, wellness tips, and clinic updates from the RGV's premier after-hours medical team.">
     <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 
 <body>
 
     <!-- Navigation -->
-    <header>
+    <header class="glass">
         <div class="container">
             <nav>
-                <a href="../index.html" class="logo">OPTIMUM<span style="color:#fff">CLINIC</span></a>
+                <a href="../index.html" class="logo">OPTIMUM<span>CLINIC</span></a>
                 <ul class="nav-links">
-                    <li><a href="../index.html" class="active">Home</a></li>
+                    <li><a href="../index.html">Home</a></li>
                     <li><a href="../about.html">About</a></li>
                     <li><a href="../services/medical-consultation.html">Services</a></li>
                     <li><a href="../conditions/diabetes.html">Conditions</a></li>
                     <li><a href="../resources/pricing.html">Resources</a></li>
-                    <li><a href="../blog/index.html">Blog</a></li>
+                    <li><a href="index.html" class="active">Blog</a></li>
                     <li><a href="../contact.html">Contact</a></li>
                 </ul>
-                <a href="tel:956-000-0000" class="btn btn-primary">Call Now</a>
+                <a href="tel:956-000-0000" class="btn btn-gold">Call Now</a>
             </nav>
         </div>
     </header>
 
-    
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="container">
-            <h1>Health & Wellness Blog</h1>
-            <p>Expert advice and news from the Night Clinic.</p>
-            <div style="display:flex; gap:16px; justify-content:center;">
-                <a href="../contact.html" class="btn btn-primary">Book Now</a>
-                <a href="../index.html" class="btn" style="border:1px solid rgba(255,255,255,0.2); color:#fff">Back to Home</a>
-            </div>
+    <!-- Sub-Hero -->
+    <section class="sub-hero" style="background-image: url('../assets/img/hero-main.png');">
+        <div class="container" data-reveal>
+            <span class="section-tag italic">Medical Insights</span>
+            <h1>The <span style="color:var(--gold-primary)">Optimum</span> Journal</h1>
+            <p style="max-width: 600px;">Expert perspectives on wellness, disease management, and the future of
+                after-hours medical care in the Rio Grande Valley.</p>
         </div>
     </section>
-    <!-- Services Section -->
-    <section class="services">
+
+    <!-- Blog Grid -->
+    <section class="service-detail">
         <div class="container">
-            <div class="section-title">
-                <h2>Our Services</h2>
-                <p>Comprehensive care for the whole family.</p>
-            </div>
-            <div class="grid">
-                <div class="card">
-                    <div class="card-icon">🩺</div>
-                    <h3>Medical Consultation</h3>
-                    <p>Expert diagnosis and treatment plans tailored to your needs.</p>
-                </div>
-                <div class="card">
-                    <div class="card-icon">🤒</div>
-                    <h3>Sick Visits</h3>
-                    <p>Rapid relief for flu, strep, infections, and common illnesses.</p>
-                </div>
-                <div class="card">
-                    <div class="card-icon">💊</div>
-                    <h3>Medication Refills</h3>
-                    <p>Quick and convenient refills for your chronic conditions.</p>
-                </div>
-                <div class="card">
-                    <div class="card-icon">🧪</div>
-                    <h3>Rapid Testing</h3>
-                    <p>On-site testing for Strep, Flu, COVID-19, and more.</p>
-                </div>
-                <div class="card">
-                    <div class="card-icon">💉</div>
-                    <h3>Injections</h3>
-                    <p>B12, antibiotics, and therapeutic injections administered safely.</p>
-                </div>
-                <div class="card">
-                    <div class="card-icon">🩹</div>
-                    <h3>Wound Care</h3>
-                    <p>Professional care for minor cuts, burns, and abrasions.</p>
-                </div>
+            <div class="reveal-grid" style="grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 40px;">
+
+                <!-- Featured Post -->
+                <article class="premium-card glass" style="overflow: hidden; border-radius: 4px;" data-reveal>
+                    <div style="height: 240px; background: url('../assets/img/clinic_night_hero.png') center/cover;">
+                    </div>
+                    <div style="padding: 30px;">
+                        <span
+                            style="color:var(--gold-primary); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 1px;">Clinical
+                            Focus</span>
+                        <h3 style="margin: 15px 0;"><a href="why-night-clinic.html"
+                                style="color:#fff; text-decoration: none;">Why an After-Hours Clinic is Better for Your
+                                Health</a></h3>
+                        <p style="color:var(--text-secondary); font-size: 0.95rem; margin-bottom: 24px;">Discover the
+                            benefits of specialized evening care and why it's more than just convenience.</p>
+                        <a href="why-night-clinic.html" class="italic"
+                            style="color:var(--gold-primary); text-decoration: none; font-weight: 600;">Read Article
+                            →</a>
+                    </div>
+                </article>
+
+                <!-- Post 2 -->
+                <article class="premium-card glass" style="overflow: hidden; border-radius: 4px;" data-reveal>
+                    <div
+                        style="height: 240px; background: url('../assets/img/hispanic_doctor_consultation.png') center/cover;">
+                    </div>
+                    <div style="padding: 30px;">
+                        <span
+                            style="color:var(--gold-primary); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 1px;">Wellness</span>
+                        <h3 style="margin: 15px 0;"><a href="#" style="color:#fff; text-decoration: none;">Managing
+                                Hypertension in a High-Stress World</a></h3>
+                        <p style="color:var(--text-secondary); font-size: 0.95rem; margin-bottom: 24px;">Modern
+                            strategies for maintaining healthy blood pressure through lifestyle and medication.</p>
+                        <a href="#" class="italic"
+                            style="color:var(--gold-primary); text-decoration: none; font-weight: 600;">Coming Soon</a>
+                    </div>
+                </article>
+
+                <!-- Post 3 -->
+                <article class="premium-card glass" style="overflow: hidden; border-radius: 4px;" data-reveal>
+                    <div style="height: 240px; background: url('../assets/img/medication-refills.png') center/cover;">
+                    </div>
+                    <div style="padding: 30px;">
+                        <span
+                            style="color:var(--gold-primary); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 1px;">Nutrition</span>
+                        <h3 style="margin: 15px 0;"><a href="#" style="color:#fff; text-decoration: none;">Simple
+                                Dietary Changes for Diabetes Control</a></h3>
+                        <p style="color:var(--text-secondary); font-size: 0.95rem; margin-bottom: 24px;">Transform your
+                            health with small, sustainable nutritional adjustments tailored for RGV families.</p>
+                        <a href="#" class="italic"
+                            style="color:var(--gold-primary); text-decoration: none; font-weight: 600;">Coming Soon</a>
+                    </div>
+                </article>
+
             </div>
         </div>
     </section>
 
+    <!-- Subscription Section -->
+    <section class="cta" style="background: var(--bg-secondary); margin-top: 50px;">
+        <div class="container" style="text-align: center;" data-reveal>
+            <h2 style="margin-bottom: 20px;">Join Our <span class="italic" style="color:var(--gold-primary)">Wellness
+                    Circle</span></h2>
+            <p style="color:var(--text-secondary); max-width: 600px; margin: 0 auto 30px;">Receive monthly health
+                insights and clinic updates directly to your inbox.</p>
+            <form style="max-width: 500px; margin: 0 auto; display: flex; gap: 10px;">
+                <input type="email" placeholder="Your Email Address"
+                    style="flex: 1; padding: 15px; background: rgba(255,255,255,0.05); border: 1px solid var(--glass-border); color: #fff; outline: none;">
+                <button type="submit" class="btn btn-gold">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
     <!-- Footer -->
-    <footer>
+    <footer style="margin-top: 100px;">
         <div class="container">
-            <p>&copy; 2026 Optimum Health & Wellness Clinic. All rights reserved.</p>
+            <div class="footer-grid" style="grid-template-columns: 2fr 1fr 1fr; gap: 60px;">
+                <div>
+                    <a href="../index.html" class="logo"
+                        style="margin-bottom: 20px; display: block;">OPTIMUM<span>CLINIC</span></a>
+                    <p style="color:var(--text-secondary); max-width: 300px;">The RGV's premier after-hours medical
+                        destination.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../about.html">About</a></li>
+                        <li><a href="../contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="../privacy.html">Privacy</a></li>
+                        <li><a href="../accessibility.html">Accessibility</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Optimum Health & Wellness Clinic. All rights reserved.</p>
+            </div>
         </div>
     </footer>
 

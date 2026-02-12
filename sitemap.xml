@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://optimumclinicrgv.com/index.html</loc></url>
-  <url><loc>https://optimumclinicrgv.com/about.html</loc></url>
-  <url><loc>https://optimumclinicrgv.com/contact.html</loc></url>
-  <url><loc>https://optimumclinicrgv.com/services/medical-consultation.html</loc></url>
+  <url><loc>https://optimumclinicra.com/</loc><priority>1.0</priority></url>
+  <url><loc>https://optimumclinicra.com/about.html</loc><priority>0.8</priority></url>
+  <url><loc>https://optimumclinicra.com/contact.html</loc><priority>0.8</priority></url>
+  <url><loc>https://optimumclinicra.com/privacy.html</loc><priority>0.5</priority></url>
+  <url><loc>https://optimumclinicra.com/accessibility.html</loc><priority>0.5</priority></url>
+  
+  <url><loc>https://optimumclinicra.com/services/medical-consultation.html</loc><priority>0.9</priority></url>
+  <url><loc>https://optimumclinicra.com/services/sick-visits.html</loc><priority>0.9</priority></url>
+  <url><loc>https://optimumclinicra.com/services/medication-refills.html</loc><priority>0.9</priority></url>
+  <url><loc>https://optimumclinicra.com/services/rapid-testing.html</loc><priority>0.9</priority></url>
+  <url><loc>https://optimumclinicra.com/services/urinalysis.html</loc><priority>0.8</priority></url>
+  <url><loc>https://optimumclinicra.com/services/injections.html</loc><priority>0.8</priority></url>
+  <url><loc>https://optimumclinicra.com/services/ear-lavage.html</loc><priority>0.8</priority></url>
+  <url><loc>https://optimumclinicra.com/services/wound-care.html</loc><priority>0.8</priority></url>
+  
+  <url><loc>https://optimumclinicra.com/conditions/diabetes.html</loc><priority>0.8</priority></url>
+  <url><loc>https://optimumclinicra.com/conditions/hypertension.html</loc><priority>0.8</priority></url>
+  <url><loc>https://optimumclinicra.com/conditions/chronic-disease.html</loc><priority>0.8</priority></url>
+  <url><loc>https://optimumclinicra.com/conditions/preventive-care.html</loc><priority>0.8</priority></url>
+  
+  <url><loc>https://optimumclinicra.com/resources/pricing.html</loc><priority>0.7</priority></url>
+  <url><loc>https://optimumclinicra.com/resources/faq.html</loc><priority>0.7</priority></url>
+  <url><loc>https://optimumclinicra.com/resources/new-patient.html</loc><priority>0.7</priority></url>
+  <url><loc>https://optimumclinicra.com/resources/patient-forms.html</loc><priority>0.7</priority></url>
+  
+  <url><loc>https://optimumclinicra.com/blog/index.html</loc><priority>0.8</priority></url>
+  <url><loc>https://optimumclinicra.com/blog/why-night-clinic.html</loc><priority>0.7</priority></url>
 </urlset>

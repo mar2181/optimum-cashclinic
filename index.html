@@ -4,22 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Optimum Health & Wellness Clinic | Night Clinic RGV</title>
+    <title>Optimum Health & Wellness Clinic | Premium Night Clinic RGV</title>
     <meta name="description"
-        content="Premier after-hours medical care in the Rio Grande Valley. Open 5 PM - 10 PM for your convenience.">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=DM+Sans:wght@400;500;700&display=swap"
-        rel="stylesheet">
+        content="Experience the RGV's premier after-hours medical destination. Luxury care for diabetes, hypertension, and acute illness. Open 5PM-10PM.">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
 
     <!-- Navigation -->
-    <header>
+    <header class="glass">
         <div class="container">
             <nav>
-                <a href="index.html" class="logo">OPTIMUM<span style="color:#fff">CLINIC</span></a>
+                <a href="index.html" class="logo">OPTIMUM<span>CLINIC</span></a>
                 <ul class="nav-links">
                     <li><a href="index.html" class="active">Home</a></li>
                     <li><a href="about.html">About</a></li>
@@ -29,7 +26,7 @@
                     <li><a href="blog/index.html">Blog</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
-                <a href="tel:956-000-0000" class="btn btn-primary">Call Now</a>
+                <a href="tel:956-000-0000" class="btn btn-gold">Call Now</a>
             </nav>
         </div>
     </header>
@@ -37,63 +34,156 @@
     <!-- Hero Section -->
     <section class="hero">
         <div class="container">
-            <h1>Healthcare That Works<br><span style="color:var(--gold)">On Your Schedule</span></h1>
-            <p>The RGV's premier Night Clinic. Open 5 PM - 10 PM. Walk-ins welcome. Premium care without the premium
-                wait.</p>
-            <div style="display:flex; gap:16px; justify-content:center;">
-                <a href="contact.html" class="btn btn-primary">Book Appointment</a>
-                <a href="services/medical-consultation.html" class="btn"
-                    style="border:1px solid rgba(255,255,255,0.2); color:#fff">View Services</a>
+            <div class="hero-content" data-reveal>
+                <span class="section-tag italic">The RGV's Premier Destination</span>
+                <h1>Healthcare That <br><span class="italic" style="color:var(--gold-primary)">Understands Your
+                        Time</span></h1>
+                <p>Welcome to the next generation of medical care. Open 5:00 PM - 10:00 PM nightly. Premium wellness,
+                    photorealistic excellence, and elite service for our Hispanic community.</p>
+                <div style="display:flex; gap:16px;">
+                    <a href="contact.html" class="btn btn-gold">Secure Appointment</a>
+                    <a href="services/medical-consultation.html" class="btn btn-outline">Explore Services</a>
+                </div>
+            </div>
+        </div>
+        <div class="hero-image"
+            style="position:absolute; right:0; top:0; width:45%; height:100%; z-index:-1; background: url('assets/img/hero-main.png') center/cover no-repeat;">
+            <div style="position:absolute; inset:0; background: linear-gradient(to left, transparent, var(--bg-dark));">
             </div>
         </div>
     </section>
 
-    <!-- Services Section -->
-    <section class="services">
+    <!-- Stats Section -->
+    <section class="stats"
+        style="padding: 60px 0; background: var(--bg-surface); border-top: 1px solid var(--glass-border); border-bottom: 1px solid var(--glass-border);">
         <div class="container">
-            <div class="section-title">
-                <h2>Our Services</h2>
-                <p>Comprehensive care for the whole family.</p>
-            </div>
-            <div class="grid">
-                <div class="card">
-                    <div class="card-icon">🩺</div>
-                    <h3>Medical Consultation</h3>
-                    <p>Expert diagnosis and treatment plans tailored to your needs.</p>
+            <div class="reveal-grid" style="grid-template-columns: repeat(4, 1fr); text-align: center;">
+                <div data-reveal>
+                    <h3 style="font-size: 2.5rem; color: var(--gold-primary);">5PM - 10PM</h3>
+                    <p class="section-tag" style="margin-top: 5px;">Prime Hours</p>
                 </div>
-                <div class="card">
-                    <div class="card-icon">🤒</div>
-                    <h3>Sick Visits</h3>
-                    <p>Rapid relief for flu, strep, infections, and common illnesses.</p>
+                <div data-reveal>
+                    <h3 style="font-size: 2.5rem; color: var(--gold-primary);">0 MIN</h3>
+                    <p class="section-tag" style="margin-top: 5px;">Average Wait</p>
                 </div>
-                <div class="card">
-                    <div class="card-icon">💊</div>
-                    <h3>Medication Refills</h3>
-                    <p>Quick and convenient refills for your chronic conditions.</p>
+                <div data-reveal>
+                    <h3 style="font-size: 2.5rem; color: var(--gold-primary);">100%</h3>
+                    <p class="section-tag" style="margin-top: 5px;">Premium Care</p>
                 </div>
-                <div class="card">
-                    <div class="card-icon">🧪</div>
-                    <h3>Rapid Testing</h3>
-                    <p>On-site testing for Strep, Flu, COVID-19, and more.</p>
-                </div>
-                <div class="card">
-                    <div class="card-icon">💉</div>
-                    <h3>Injections</h3>
-                    <p>B12, antibiotics, and therapeutic injections administered safely.</p>
-                </div>
-                <div class="card">
-                    <div class="card-icon">🩹</div>
-                    <h3>Wound Care</h3>
-                    <p>Professional care for minor cuts, burns, and abrasions.</p>
+                <div data-reveal>
+                    <h3 style="font-size: 2.5rem; color: var(--gold-primary);">24/7</h3>
+                    <p class="section-tag" style="margin-top: 5px;">Support Access</p>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <!-- Services Overview -->
+    <section class="services-overview">
+        <div class="container">
+            <div class="section-head" data-reveal>
+                <span class="section-tag italic">Our Expertise</span>
+                <h2>Premium Medical <span style="color:var(--gold-primary)">Solutions</span></h2>
+            </div>
+            <div class="reveal-grid">
+                <!-- Consultation -->
+                <div class="premium-card" data-reveal>
+                    <div class="card-num">01</div>
+                    <img src="assets/img/service-consultation.png" alt="Medical Consultation"
+                        style="width:100%; height:200px; object-fit:cover; border-radius:4px; margin-bottom:24px; border: 1px solid var(--glass-border);">
+                    <h3 class="card-title">Medical Consultation</h3>
+                    <p class="card-desc">Elite Hispanic-focused medical expertise for adults and children. Personalized
+                        treatment plans in a luxury setting.</p>
+                    <a href="services/medical-consultation.html" class="italic"
+                        style="color:var(--gold-primary); text-decoration:none; display:block; margin-top:20px;">Learn
+                        More →</a>
+                </div>
+                <!-- Sick Visits -->
+                <div class="premium-card" data-reveal>
+                    <div class="card-num">02</div>
+                    <div
+                        style="width:100%; height:200px; background:var(--bg-card); border-radius:4px; margin-bottom:24px; border:1px solid var(--glass-border); display:flex; align-items:center; justify-content:center; font-size:3rem;">
+                        🤒</div>
+                    <h3 class="card-title">Sick Visits</h3>
+                    <p class="card-desc">Rapid relief for common ailments. Flu, infections, and acute care handled with
+                        urgency and discretion.</p>
+                    <a href="services/sick-visits.html" class="italic"
+                        style="color:var(--gold-primary); text-decoration:none; display:block; margin-top:20px;">Learn
+                        More →</a>
+                </div>
+                <!-- Medication -->
+                <div class="premium-card" data-reveal>
+                    <div class="card-num">03</div>
+                    <img src="assets/img/service-medication.png" alt="Medication Refills"
+                        style="width:100%; height:200px; object-fit:cover; border-radius:4px; margin-bottom:24px; border: 1px solid var(--glass-border);">
+                    <h3 class="card-title">Medication Refills</h3>
+                    <p class="card-desc">Streamlined refills for chronic conditions. We ensure your maintenance
+                        medications are never interrupted.</p>
+                    <a href="services/medication-refills.html" class="italic"
+                        style="color:var(--gold-primary); text-decoration:none; display:block; margin-top:20px;">Learn
+                        More →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta glass"
+        style="margin: 0 40px; border-radius: 8px; text-align: center; background: radial-gradient(circle at center, var(--accent-glow), var(--bg-surface));">
+        <div class="container" data-reveal>
+            <span class="section-tag italic">Take Charge Of Your Health</span>
+            <h2 style="margin-bottom: 24px;">Experience The <span class="italic"
+                    style="color:var(--gold-primary)">Optimum</span> Difference</h2>
+            <p style="color:var(--text-secondary); max-width:700px; margin: 0 auto 40px;">Join the growing number of RGV
+                families who trust us for their after-hours medical needs.</p>
+            <a href="contact.html" class="btn btn-gold">Book Your Experience</a>
         </div>
     </section>
 
     <!-- Footer -->
     <footer>
         <div class="container">
-            <p>&copy; 2026 Optimum Health & Wellness Clinic. All rights reserved.</p>
+            <div class="footer-grid">
+                <div class="footer-info">
+                    <a href="index.html" class="logo"
+                        style="display:block; margin-bottom:20px;">OPTIMUM<span>CLINIC</span></a>
+                    <p style="color:var(--text-secondary); font-size:0.9rem; max-width:300px;">The RGV's premier
+                        after-hours medical destination. Bridging the gap between luxury and healthcare.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Navigate</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services/medical-consultation.html">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="services/medical-consultation.html">Consultations</a></li>
+                        <li><a href="services/sick-visits.html">Sick Visits</a></li>
+                        <li><a href="services/medication-refills.html">Refills</a></li>
+                        <li><a href="services/rapid-testing.html">Testing</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Contact</h4>
+                    <ul style="color:var(--text-secondary); font-size:0.9rem;">
+                        <li>McAllen, TX</li>
+                        <li>5:00 PM - 10:00 PM</li>
+                        <li>(956) 000-0000</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Optimum Health & Wellness Clinic. All rights reserved.</p>
+                <div style="display:flex; gap:20px;">
+                    <a href="privacy.html">Privacy Policy</a>
+                    <a href="accessibility.html">Accessibility</a>
+                </div>
+            </div>
         </div>
     </footer>
 
